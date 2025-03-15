@@ -20,6 +20,10 @@ chmod +x rdiff_alias.sh; ./rdiff_alias.sh
 rdiff local_file user@host:/path/to/remote_file
 ```
 
+```bash
+rdiff user_1@host_1:/path/to/remote_file_1 user_2@host_2:/path/to/remote_file_2
+```
+
 ### RDIFF also can be used like a normal diff
 
 ```bash
